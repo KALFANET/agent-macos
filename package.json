@@ -1,0 +1,30 @@
+{
+    "name": "agent-macos",
+    "version": "1.0.0",
+    "description": "Agent for macOS to communicate with backend server",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager . agent-macos --platform=darwin --arch=x64 --out=dist --overwrite",
+        "build": "electron-builder"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "dotenv": "^16.0.0",
+        "electron-builder": "^25.1.8",
+        "electron-packager": "^17.1.2",
+        "keytar": "^7.9.0",
+        "macaddress": "^0.5.3"
+    },
+    "build": {
+        "appId": "com.agent.macos",
+        "productName": "AgentMacOS",
+        "mac": {
+            "target": "dmg",
+            "icon": "mac/assets/icon.png"
+        }
+    },
+    "devDependencies": {
+        "electron": "^34.2.0"
+    }
+}
