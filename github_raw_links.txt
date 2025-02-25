@@ -1,0 +1,16 @@
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/.DS_Store
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/.env
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/.gitattributes
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/.gitignore
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/README.md
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/common/backendClient.js
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/common/credentialManager.js
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/common/logger.js
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/logs.txt
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/mac/.DS_Store
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/mac/assets/icon.png
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/mac/osHandler.js
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/mac/trayManager.js
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/main.js
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/package-lock.json
+https://raw.githubusercontent.com/KALFANET/agent-macos/main/package.json

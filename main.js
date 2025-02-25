@@ -13,7 +13,7 @@ app.whenReady().then(async () => {
         new TrayManager(iconPath);
         Logger.info("✅ Agent started on macOS");
 
-        // שליחת פקודה להרצת ifconfig עם טוקן מעודכן
+        // שליחת פקודה להרצת ifconfig
         if (typeof backendClient.sendCommand === 'function') {
             await backendClient.sendCommand('ifconfig');
         } else {
