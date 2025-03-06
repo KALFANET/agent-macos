@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Agent Status</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Agent Status</h1>
+      <div class="status-indicator">
+        <span id="status-dot" class="status-dot"></span>
+        <span id="status-text">Unknown</span>
+      </div>
+    </div>
+    
+    <div class="info-section">
+      <div class="info-item">
+        <span class="label">Hostname:</span>
+        <span id="hostname" class="value">-</span>
+      </div>
+      <div class="info-item">
+        <span class="label">IP Address:</span>
+        <span id="ip-address" class="value">-</span>
+      </div>
+      <div class="info-item">
+        <span class="label">Last Command:</span>
+        <span id="last-command" class="value">-</span>
+      </div>
+      <div class="info-item">
+        <span class="label">API Key:</span>
+        <span id="api-key" class="value">-</span>
+      </div>
+    </div>
+    
+    <div class="actions">
+      <button id="refresh-btn" class="btn btn-primary">Refresh</button>
+      <button id="reconnect-btn" class="btn btn-secondary">Reconnect</button>
+    </div>
+  </div>
+  
+  <script>
+    const { ipcRenderer } = require('electron');
+    
+    // DOM Elements
+    const statusDot = document.getElementById('status-dot');
+    const statusText = document.getElementById('status-text');
+    const hostnameEl = document.getElementById('hostname');
+    const ipAddressEl = document.getElementById('ip-address');
+    const lastCommandEl = document.getElementById('last-command');
+    const idKeyEl = document.getElementById('api-key');
+    const refreshBtn = document.getElementById('refresh-btn');
+    const reconnectBtn = document.getElementById('reconnect-btn');
+    
+    // Update UI with agent data
+    ipcRenderer.on('agent-data', (event, data) => {
+      updateUI(data);
+    });
+    
+    // Button event listeners
+    refreshBtn.addEventListener('click', () => {
+      ipcRenderer.send('refresh-status');
+    });
+    
+    reconnectBtn.addEventListener('click', () => {
+      ipcRenderer.send('reconnect');
+    });
+    
+    // Update UI helper function
+    function updateUI(data) {
+      // Update status
+      statusDot.className = `status-dot status-${data.status}`;
+      statusText.textContent = data.status === 'online' ? 'Online' : 'Offline';
+      
+      // Update info
+      hostnameEl.textContent = data.hostname || '-';
+      ipAddressEl.textContent = data.ip || '-';
+      
+      // Update last command info
+      if (data.lastCommand) {
+        const commandTime = new Date(data.lastCommand.time).toLocaleTimeString();
+        const commandStatus = data.lastCommand.status === 'success' ? 'Success' : 'Failed';
+        lastCommandEl.textContent = `${commandTime} - ${commandStatus}`;
+        lastCommandEl.className = `value ${data.lastCommand.status}`;
+      } else {
+        lastCommandEl.textContent = 'No commands yet';
+        lastCommandEl.className = 'value';
+      }
+      
+      // ✅ הצגת API Key בצורה בטוחה
+      idKeyEl.textContent = data.idKey || 'Not found';
+    }
+  </script>
+</body>
+</html>

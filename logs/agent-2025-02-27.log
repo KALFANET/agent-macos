@@ -1,0 +1,251 @@
+[2025-02-27T22:12:39.583Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T22:12:39.587Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T22:12:39.595Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T22:12:39.595Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T22:12:39.595Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T22:12:39.595Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T22:12:39.595Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T22:12:39.596Z] [INFO] ==============================
+[2025-02-27T22:12:39.702Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T22:12:39.704Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T22:12:39.704Z] [INFO] 📌 Found IP Address on interface en0: 10.100.102.17
+[2025-02-27T22:12:39.704Z] [INFO] 📤 Sending device registration request with data: {"deviceId":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"10.100.102.17"}
+[2025-02-27T22:12:42.441Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"column \"deviceId\" does not exist"}
+[2025-02-27T22:12:42.442Z] [INFO] ✅ Device registered with backend
+[2025-02-27T22:12:42.499Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T22:12:42.500Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:12:42.500Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:12:42.501Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T22:12:42.642Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T22:12:42.642Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:17:42.534Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:17:42.560Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:17:44.829Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T22:17:44.831Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:22:42.536Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:22:42.551Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:22:44.401Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T22:22:44.402Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:27:42.557Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:27:42.572Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:27:44.346Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T22:27:44.346Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:32:42.572Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:32:42.598Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:32:44.451Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T22:32:44.451Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:37:42.676Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:37:42.837Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:37:43.100Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T22:37:43.100Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:42:42.679Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:42:42.705Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:42:42.778Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T22:42:42.778Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:47:42.687Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:47:42.705Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:47:42.748Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T22:47:42.748Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:52:42.696Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:52:42.747Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:52:42.819Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T22:52:42.819Z] [ERROR] ❌ Failed to update status
+[2025-02-27T22:57:42.797Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T22:57:43.004Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T22:57:43.118Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T22:57:43.119Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:02:42.817Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:02:42.872Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:02:42.943Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T23:02:42.944Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:07:42.841Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:07:42.938Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:07:43.026Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T23:07:43.028Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:11:45.836Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T23:11:45.838Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T23:11:45.853Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T23:11:45.854Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T23:11:45.854Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T23:11:45.854Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T23:11:45.854Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T23:11:45.854Z] [INFO] ==============================
+[2025-02-27T23:11:46.088Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T23:11:46.089Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T23:11:46.089Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-27T23:11:46.089Z] [INFO] 📤 Sending device registration request with data: {"deviceId":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-27T23:11:46.281Z] [ERROR] ❌ Error registering device: {"message":"Missing device details"}
+[2025-02-27T23:11:46.281Z] [INFO] ✅ Device registered with backend
+[2025-02-27T23:11:46.551Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T23:11:46.551Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:11:46.551Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:11:46.552Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T23:11:50.169Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T23:11:50.174Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:14:56.396Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T23:14:57.011Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T23:14:57.035Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T23:14:57.035Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T23:14:57.038Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T23:14:57.038Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T23:14:57.039Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T23:14:57.039Z] [INFO] ==============================
+[2025-02-27T23:14:57.385Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T23:14:57.386Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T23:14:57.387Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-27T23:14:57.387Z] [INFO] 📤 Sending device registration request with data: {"id":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-27T23:15:01.374Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"column \"deviceId\" does not exist"}
+[2025-02-27T23:15:01.404Z] [INFO] ✅ Device registered with backend
+[2025-02-27T23:15:04.558Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T23:15:04.558Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:15:04.558Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:15:04.572Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T23:15:04.925Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T23:15:04.925Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:19:10.414Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T23:19:10.419Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T23:19:10.431Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T23:19:10.432Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T23:19:10.432Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T23:19:10.432Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T23:19:10.432Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T23:19:10.432Z] [INFO] ==============================
+[2025-02-27T23:19:11.012Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T23:19:11.016Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T23:19:11.021Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-27T23:19:11.026Z] [INFO] 📤 Sending device registration request with data: {"id":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-27T23:19:15.232Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"column \"deviceId\" does not exist"}
+[2025-02-27T23:19:15.237Z] [INFO] ✅ Device registered with backend
+[2025-02-27T23:19:15.486Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T23:19:15.487Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:19:15.487Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:19:15.491Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T23:19:15.742Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T23:19:15.743Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:24:15.694Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:24:16.060Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:24:16.558Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T23:24:16.562Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:29:15.787Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:29:15.965Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:29:16.387Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T23:29:16.389Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:32:53.470Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T23:32:53.475Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T23:32:53.490Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T23:32:53.490Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T23:32:53.492Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T23:32:53.494Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T23:32:53.496Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T23:32:53.498Z] [INFO] ==============================
+[2025-02-27T23:32:53.917Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T23:32:53.919Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T23:32:53.920Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-27T23:32:53.921Z] [INFO] 📤 Sending device registration request with data: {"id":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-27T23:32:58.045Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"column \"osVersion\" does not exist"}
+[2025-02-27T23:32:58.056Z] [INFO] ✅ Device registered with backend
+[2025-02-27T23:32:58.487Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T23:32:58.487Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:32:58.522Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:32:58.572Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T23:32:58.918Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T23:32:59.054Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:37:58.690Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:37:59.514Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:38:03.390Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-27T23:38:03.421Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:42:58.680Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:42:58.730Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:42:58.832Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T23:42:58.833Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:44:16.590Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T23:44:17.059Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T23:44:17.080Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T23:44:17.080Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T23:44:17.080Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T23:44:17.080Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T23:44:17.080Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T23:44:17.080Z] [INFO] ==============================
+[2025-02-27T23:44:17.301Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T23:44:17.303Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T23:44:17.303Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-27T23:44:17.303Z] [INFO] 📤 Sending device registration request with data: {"id":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-27T23:44:21.869Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"invalid input syntax for type uuid: \"h-MacBook-Air-sl-Netanel.local\""}
+[2025-02-27T23:44:21.882Z] [INFO] ✅ Device registered with backend
+[2025-02-27T23:44:22.267Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T23:44:22.267Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:44:22.268Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:44:22.281Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T23:44:22.487Z] [ERROR] ❌ Error updating status: {"message":"טוקן לא תקף!"}
+[2025-02-27T23:44:22.488Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:49:22.298Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:49:22.315Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:49:24.801Z] [ERROR] ❌ Error updating status: {"message":"טוקן לא תקף!"}
+[2025-02-27T23:49:24.803Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:53:03.802Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T23:53:03.803Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T23:53:03.808Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T23:53:03.808Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T23:53:03.808Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T23:53:03.808Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T23:53:03.808Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T23:53:03.808Z] [INFO] ==============================
+[2025-02-27T23:53:03.939Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T23:53:03.941Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T23:53:03.941Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-27T23:53:03.941Z] [INFO] 📤 Sending device registration request with data: {"id":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-27T23:53:07.686Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"invalid input syntax for type uuid: \"h-MacBook-Air-sl-Netanel.local\""}
+[2025-02-27T23:53:07.686Z] [INFO] ✅ Device registered with backend
+[2025-02-27T23:53:07.804Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T23:53:07.804Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:53:07.804Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:53:07.806Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T23:53:08.047Z] [ERROR] ❌ Error updating status: {"message":"טוקן לא תקף!"}
+[2025-02-27T23:53:08.047Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:53:47.492Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-27T23:53:47.494Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-27T23:53:47.498Z] [INFO] ✅ API Key loaded from config file
+[2025-02-27T23:53:47.498Z] [INFO] ======== API KEY CHECK ========
+[2025-02-27T23:53:47.498Z] [INFO] ✅ API Key in agentConfig.json: 1163a7a8f5...
+[2025-02-27T23:53:47.498Z] [INFO] ✅ API Key in environment: 1163a7a8f5...
+[2025-02-27T23:53:47.498Z] [INFO] ✅ Using API Key: 1163a7a8f5...
+[2025-02-27T23:53:47.498Z] [INFO] ==============================
+[2025-02-27T23:53:47.635Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-27T23:53:47.636Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-27T23:53:47.636Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-27T23:53:47.637Z] [INFO] 📤 Sending device registration request with data: {"id":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-27T23:53:49.956Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-02-27T23:53:50.521Z] [INFO] ✅ .env file successfully updated.
+[2025-02-27T23:53:50.524Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-02-27T23:53:50.528Z] [INFO] ✅ API Key saved to config file
+[2025-02-27T23:53:50.529Z] [INFO] ✅ Device registered with backend
+[2025-02-27T23:53:50.641Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-27T23:53:50.641Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:53:50.641Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:53:50.643Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-27T23:53:50.861Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"WHERE parameter \"id\" has invalid \"undefined\" value"}
+[2025-02-27T23:53:50.862Z] [ERROR] ❌ Failed to update status
+[2025-02-27T23:58:50.676Z] [INFO] 🔄 Updating status to: online
+[2025-02-27T23:58:50.699Z] [INFO] 📤 Updating device status to: online
+[2025-02-27T23:58:50.741Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-27T23:58:50.742Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:03:50.690Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:03:50.716Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:03:50.766Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-28T00:03:50.766Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:08:50.876Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:08:52.369Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:08:53.243Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-28T00:08:53.244Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:13:50.961Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:13:51.200Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:13:51.432Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-28T00:13:51.432Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:18:50.958Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:18:50.989Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:18:51.024Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-28T00:18:51.025Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:23:51.045Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:23:51.226Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:23:51.570Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-28T00:23:51.583Z] [ERROR] ❌ Failed to update status

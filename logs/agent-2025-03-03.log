@@ -1,0 +1,1465 @@
+[2025-03-03T05:29:30.535Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T05:29:30.537Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T05:29:30.540Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T05:29:30.540Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T05:29:30.541Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T05:29:30.541Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T05:29:30.541Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T05:29:30.541Z] [INFO] ==============================
+[2025-03-03T05:29:30.696Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T05:29:31.271Z] [INFO] ✅ Backend detected at http://192.168.64.1:4000/api
+[2025-03-03T05:29:31.272Z] [INFO] 🔄 Updated BACKEND_URL in .env file.
+[2025-03-03T05:29:31.280Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T05:29:31.280Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T05:29:31.281Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T05:29:31.281Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T05:29:31.281Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T05:29:33.475Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T05:29:33.475Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T05:29:33.475Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T05:29:33.478Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T05:29:33.478Z] [INFO] ✅ Device registered with backend
+[2025-03-03T05:29:33.645Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T05:29:33.645Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T05:29:33.646Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T05:29:33.648Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T05:29:34.141Z] [INFO] ✅ Status updated successfully
+[2025-03-03T05:29:34.142Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T05:30:15.017Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T05:31:17.784Z] [INFO] 🛑 Application is shutting down...
+[2025-03-03T05:31:17.792Z] [INFO] 🔄 Updating status to: offline
+[2025-03-03T05:31:17.792Z] [INFO] 📤 Updating device status to: offline
+[2025-03-03T05:31:20.657Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T05:31:20.658Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T05:31:20.661Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T05:31:20.661Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T05:31:20.661Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T05:31:20.662Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T05:31:20.662Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T05:31:20.662Z] [INFO] ==============================
+[2025-03-03T05:31:20.789Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T05:31:20.861Z] [INFO] ✅ Backend detected at http://192.168.64.1:4000/api
+[2025-03-03T05:31:20.861Z] [INFO] 🔄 Updated BACKEND_URL in .env file.
+[2025-03-03T05:31:20.863Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T05:31:20.863Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T05:31:20.865Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T05:31:20.865Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T05:31:20.866Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T05:31:23.418Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T05:31:23.419Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T05:31:23.419Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T05:31:23.420Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T05:31:23.423Z] [INFO] ✅ Device registered with backend
+[2025-03-03T05:31:23.495Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T05:31:23.495Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T05:31:23.495Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T05:31:23.496Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T05:31:23.891Z] [INFO] ✅ Status updated successfully
+[2025-03-03T05:31:23.892Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T05:31:32.921Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T05:36:23.524Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T05:36:23.541Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T05:36:25.951Z] [INFO] ✅ Status updated successfully
+[2025-03-03T05:36:25.951Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T05:54:55.100Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T05:54:55.121Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T05:54:55.272Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T05:54:55.272Z] [ERROR] ❌ Failed to update status
+[2025-03-03T06:00:21.544Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T06:00:21.556Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T06:01:27.279Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T06:01:27.280Z] [ERROR] ❌ Failed to update status
+[2025-03-03T06:36:14.433Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T06:36:14.443Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T06:52:29.544Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T06:52:29.546Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T06:52:29.560Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T06:52:29.560Z] [ERROR] ❌ Failed to update status
+[2025-03-03T06:57:14.965Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T06:57:14.966Z] [ERROR] ❌ Failed to update status
+[2025-03-03T06:57:29.528Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T06:57:29.530Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T06:59:47.278Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ECONNRESET"}
+[2025-03-03T06:59:47.281Z] [ERROR] ❌ Failed to update status
+[2025-03-03T07:17:53.877Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T07:17:53.878Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T07:34:14.074Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T07:34:14.078Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T07:34:14.083Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-03-03T07:34:14.083Z] [ERROR] ❌ Failed to update status
+[2025-03-03T07:51:45.089Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T07:51:45.097Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T07:51:45.103Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T07:51:45.104Z] [ERROR] ❌ Failed to update status
+[2025-03-03T07:52:25.617Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T07:52:25.619Z] [ERROR] ❌ Failed to update status
+[2025-03-03T08:10:30.622Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T08:10:30.624Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T08:15:07.576Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T08:15:07.579Z] [ERROR] ❌ Failed to update status
+[2025-03-03T08:32:42.708Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T08:32:42.710Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T08:37:54.631Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T08:37:54.632Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T08:37:54.636Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-03-03T08:37:54.636Z] [ERROR] ❌ Failed to update status
+[2025-03-03T08:37:56.194Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T08:37:56.194Z] [ERROR] ❌ Failed to update status
+[2025-03-03T08:46:51.205Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T08:46:51.206Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T08:49:14.579Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T08:49:14.579Z] [ERROR] ❌ Failed to update status
+[2025-03-03T09:06:52.218Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T09:06:52.317Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T09:07:59.181Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read EHOSTUNREACH"}
+[2025-03-03T09:07:59.182Z] [ERROR] ❌ Failed to update status
+[2025-03-03T09:31:17.399Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T09:31:17.401Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T09:32:47.755Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T09:32:47.756Z] [ERROR] ❌ Failed to update status
+[2025-03-03T09:55:19.265Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T09:55:19.267Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T09:59:23.514Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T09:59:23.515Z] [ERROR] ❌ Failed to update status
+[2025-03-03T10:32:49.269Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T10:32:49.406Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T10:53:29.618Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T10:53:29.619Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T10:53:29.626Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T10:53:29.627Z] [ERROR] ❌ Failed to update status
+[2025-03-03T11:44:50.194Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T11:44:50.196Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T11:44:50.225Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T11:44:50.226Z] [ERROR] ❌ Failed to update status
+[2025-03-03T11:54:29.261Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T11:54:29.263Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T11:54:29.339Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T11:54:29.339Z] [ERROR] ❌ Failed to update status
+[2025-03-03T11:54:36.894Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-03-03T11:54:36.895Z] [ERROR] ❌ Failed to update status
+[2025-03-03T12:27:44.292Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T12:27:44.303Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T12:44:03.272Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T12:44:03.275Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T12:44:03.282Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T12:44:03.282Z] [ERROR] ❌ Failed to update status
+[2025-03-03T12:44:10.323Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T12:44:10.324Z] [ERROR] ❌ Failed to update status
+[2025-03-03T13:04:45.326Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:04:45.335Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:12:15.638Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:12:15.645Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:12:15.724Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T13:12:15.730Z] [ERROR] ❌ Failed to update status
+[2025-03-03T13:12:15.782Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T13:12:15.784Z] [ERROR] ❌ Failed to update status
+[2025-03-03T13:26:58.057Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:26:58.145Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:26:59.136Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T13:26:59.149Z] [ERROR] ❌ Failed to update status
+[2025-03-03T13:35:00.583Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:35:00.796Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:35:03.961Z] [INFO] ✅ Status updated successfully
+[2025-03-03T13:35:03.962Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T13:40:00.574Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:40:00.592Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:40:02.549Z] [INFO] ✅ Status updated successfully
+[2025-03-03T13:40:02.549Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T13:45:00.642Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:45:00.790Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:45:03.065Z] [INFO] ✅ Status updated successfully
+[2025-03-03T13:45:03.065Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T13:50:00.628Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:50:00.657Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:50:02.771Z] [INFO] ✅ Status updated successfully
+[2025-03-03T13:50:02.771Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T13:55:00.753Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T13:55:00.858Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T13:55:03.243Z] [INFO] ✅ Status updated successfully
+[2025-03-03T13:55:03.244Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T14:00:00.869Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:00:00.994Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:00:03.330Z] [INFO] ✅ Status updated successfully
+[2025-03-03T14:00:03.331Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T14:05:00.903Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:05:00.933Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:05:03.242Z] [INFO] ✅ Status updated successfully
+[2025-03-03T14:05:03.243Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T14:10:00.921Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:10:00.948Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:10:03.397Z] [INFO] ✅ Status updated successfully
+[2025-03-03T14:10:03.398Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T14:15:00.939Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:15:00.964Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:30:14.160Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:30:14.161Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:30:14.200Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T14:30:14.204Z] [ERROR] ❌ Failed to update status
+[2025-03-03T14:30:14.445Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T14:30:14.445Z] [ERROR] ❌ Failed to update status
+[2025-03-03T14:35:14.209Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:35:14.348Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:35:14.649Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T14:35:14.650Z] [ERROR] ❌ Failed to update status
+[2025-03-03T14:40:14.202Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:40:14.216Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:40:14.273Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T14:40:14.273Z] [ERROR] ❌ Failed to update status
+[2025-03-03T14:45:14.209Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:45:14.213Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:45:14.262Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T14:45:14.262Z] [ERROR] ❌ Failed to update status
+[2025-03-03T14:50:14.119Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T14:50:14.148Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T14:50:16.798Z] [INFO] ✅ Status updated successfully
+[2025-03-03T14:50:16.798Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T15:24:05.045Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T15:24:05.334Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T15:24:06.346Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T15:24:06.347Z] [ERROR] ❌ Failed to update status
+[2025-03-03T15:41:30.653Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T15:41:30.683Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T15:41:30.815Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T15:41:30.816Z] [ERROR] ❌ Failed to update status
+[2025-03-03T15:54:20.852Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T15:54:20.863Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T15:54:20.960Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T15:54:20.963Z] [ERROR] ❌ Failed to update status
+[2025-03-03T16:03:23.179Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:03:23.197Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:03:25.652Z] [INFO] ✅ Status updated successfully
+[2025-03-03T16:03:25.655Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T16:08:23.283Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:08:23.500Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:08:27.491Z] [INFO] ✅ Status updated successfully
+[2025-03-03T16:08:27.492Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T16:13:23.266Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:13:23.283Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:13:26.572Z] [INFO] ✅ Status updated successfully
+[2025-03-03T16:13:26.572Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T16:18:23.305Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:18:23.340Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:18:26.409Z] [INFO] ✅ Status updated successfully
+[2025-03-03T16:18:26.410Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T16:23:23.313Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:23:23.331Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:23:26.033Z] [INFO] ✅ Status updated successfully
+[2025-03-03T16:23:26.034Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T16:28:23.340Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:28:23.370Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:28:26.410Z] [INFO] ✅ Status updated successfully
+[2025-03-03T16:28:26.411Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T16:34:36.429Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:34:36.456Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:34:36.583Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T16:34:36.583Z] [ERROR] ❌ Failed to update status
+[2025-03-03T16:56:31.079Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T16:56:31.099Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T16:56:31.282Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T16:56:31.283Z] [ERROR] ❌ Failed to update status
+[2025-03-03T17:40:15.605Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T17:40:15.620Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T17:40:15.736Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T17:40:15.737Z] [ERROR] ❌ Failed to update status
+[2025-03-03T18:20:14.728Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:20:14.741Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:20:14.817Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T18:20:14.818Z] [ERROR] ❌ Failed to update status
+[2025-03-03T18:25:14.871Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:25:14.898Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:25:17.221Z] [INFO] ✅ Status updated successfully
+[2025-03-03T18:25:17.222Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T18:30:14.890Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:30:14.916Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:30:17.492Z] [INFO] ✅ Status updated successfully
+[2025-03-03T18:30:17.493Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T18:35:14.904Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:35:14.922Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:35:17.411Z] [INFO] ✅ Status updated successfully
+[2025-03-03T18:35:17.412Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T18:40:14.916Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:40:14.940Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:40:17.559Z] [INFO] ✅ Status updated successfully
+[2025-03-03T18:40:17.560Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T18:45:15.145Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:45:15.422Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:45:18.269Z] [INFO] ✅ Status updated successfully
+[2025-03-03T18:45:18.273Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T18:50:15.281Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:50:15.520Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:50:18.476Z] [INFO] ✅ Status updated successfully
+[2025-03-03T18:50:18.476Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T18:55:15.352Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T18:55:15.426Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T18:55:18.568Z] [INFO] ✅ Status updated successfully
+[2025-03-03T18:55:18.568Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:00:15.335Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:00:15.380Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:00:17.770Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:00:17.771Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:05:15.411Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:05:15.606Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:05:18.564Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:05:18.565Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:10:15.394Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:10:15.412Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:10:17.739Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:10:17.741Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:15:15.418Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:15:15.440Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:15:17.538Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:15:17.538Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:20:15.434Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:20:15.695Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:20:19.705Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:20:19.720Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:25:15.424Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:25:15.484Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:25:17.998Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:25:17.998Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:30:15.622Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:30:15.802Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:30:21.873Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:30:21.878Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:35:15.546Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:35:15.577Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:35:18.329Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:35:18.333Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:40:15.549Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:40:15.574Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:40:19.568Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:40:19.572Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:45:15.710Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:45:15.944Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:45:25.044Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:45:25.924Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:50:15.727Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:50:16.330Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:50:29.123Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:50:29.139Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T19:55:15.758Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T19:55:15.839Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T19:55:19.043Z] [INFO] ✅ Status updated successfully
+[2025-03-03T19:55:19.045Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:00:15.853Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:00:16.182Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:00:21.022Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:00:21.024Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:05:15.847Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:05:15.877Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:05:18.612Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:05:18.612Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:10:15.864Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:10:15.894Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:10:18.300Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:10:18.301Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:15:15.872Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:15:15.897Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:15:18.081Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:15:18.081Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:20:15.972Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:20:16.024Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:20:18.944Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:20:19.609Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:25:16.097Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:25:16.205Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:25:18.667Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:25:18.668Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:30:16.089Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:30:16.152Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:30:25.570Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:30:25.577Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:35:16.087Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:35:16.108Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:35:18.296Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:35:18.303Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T20:40:16.050Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T20:40:16.073Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T20:40:21.023Z] [INFO] ✅ Status updated successfully
+[2025-03-03T20:40:21.024Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:13:23.085Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:13:23.104Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:15:00.643Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-03T21:15:00.645Z] [ERROR] ❌ Failed to update status
+[2025-03-03T21:18:23.081Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:18:23.099Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:18:25.182Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:18:25.184Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:23:23.120Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:23:23.299Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:23:28.977Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:23:28.978Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:28:23.125Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:28:23.174Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:28:54.526Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-03T21:28:54.570Z] [ERROR] ❌ Failed to update status
+[2025-03-03T21:33:23.119Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:33:23.145Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:33:28.880Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:33:28.881Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:38:23.133Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:38:23.185Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:38:25.979Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:38:25.979Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:43:23.126Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:43:23.143Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:43:25.180Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:43:25.181Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:48:23.125Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:48:23.140Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:48:25.215Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:48:25.216Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:53:23.122Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:53:23.143Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:53:25.365Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:53:25.365Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T21:58:23.123Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T21:58:23.139Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T21:58:25.673Z] [INFO] ✅ Status updated successfully
+[2025-03-03T21:58:25.673Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:03:23.165Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:03:23.340Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:03:31.999Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:03:32.004Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:08:23.134Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:08:23.155Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:08:25.617Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:08:25.617Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:10:59.992Z] [INFO] 🛑 Application is shutting down...
+[2025-03-03T22:11:00.052Z] [INFO] 🔄 Updating status to: offline
+[2025-03-03T22:11:00.054Z] [INFO] 📤 Updating device status to: offline
+[2025-03-03T22:11:00.314Z] [INFO] ⏱️ Stopped status update interval
+[2025-03-03T22:11:00.315Z] [INFO] 🔄 Updating status to: offline
+[2025-03-03T22:11:00.315Z] [INFO] 📤 Updating device status to: offline
+[2025-03-03T22:11:27.564Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T22:11:29.481Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T22:11:30.147Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T22:11:30.149Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T22:11:30.151Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T22:11:30.152Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T22:11:30.153Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T22:11:30.153Z] [INFO] ==============================
+[2025-03-03T22:11:31.733Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T22:11:35.003Z] [INFO] ✅ Backend detected at http://192.168.64.1:4000/api
+[2025-03-03T22:11:35.027Z] [INFO] 🔄 Updated BACKEND_URL in .env file.
+[2025-03-03T22:11:35.056Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:11:35.061Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T22:11:35.070Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T22:11:35.790Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:11:36.463Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T22:11:38.919Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T22:11:38.921Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:11:38.922Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T22:11:38.925Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T22:11:38.926Z] [INFO] ✅ Device registered with backend
+[2025-03-03T22:11:39.034Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T22:11:39.034Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:11:39.037Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:11:39.041Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T22:11:39.476Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:11:39.477Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:12:10.232Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:13:34.615Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:13:37.126Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:16:39.153Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:16:39.314Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:16:42.265Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:16:42.267Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:21:39.076Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:21:39.092Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:21:41.049Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:21:41.050Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:21:48.551Z] [INFO] 🛑 Application is shutting down...
+[2025-03-03T22:21:48.557Z] [INFO] 🔄 Updating status to: offline
+[2025-03-03T22:21:48.557Z] [INFO] 📤 Updating device status to: offline
+[2025-03-03T22:21:52.307Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T22:21:52.309Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T22:21:52.314Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T22:21:52.314Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T22:21:52.314Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T22:21:52.314Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T22:21:52.315Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T22:21:52.315Z] [INFO] ==============================
+[2025-03-03T22:21:52.469Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T22:21:52.509Z] [INFO] ✅ Backend detected at http://192.168.64.1:4000/api
+[2025-03-03T22:21:52.510Z] [INFO] 🔄 Updated BACKEND_URL in .env file.
+[2025-03-03T22:21:52.511Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:21:52.511Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T22:21:52.512Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T22:21:52.512Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:21:52.513Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T22:21:54.264Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T22:21:54.264Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:21:54.264Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T22:21:54.265Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T22:21:54.265Z] [INFO] ✅ Device registered with backend
+[2025-03-03T22:21:54.266Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Normal.png
+[2025-03-03T22:21:54.267Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Dark_Normal.png
+[2025-03-03T22:21:54.267Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Normal_2x.png
+[2025-03-03T22:21:54.268Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Dark_Normal_2x.png
+[2025-03-03T22:21:54.301Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T22:21:54.302Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:21:54.302Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:21:54.303Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T22:21:54.644Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:21:54.645Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:22:28.778Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T22:22:28.782Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T22:22:28.791Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T22:22:28.791Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T22:22:28.792Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T22:22:28.792Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T22:22:28.792Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T22:22:28.793Z] [INFO] ==============================
+[2025-03-03T22:22:29.554Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T22:22:30.286Z] [INFO] ✅ Backend detected at http://192.168.64.1:4000/api
+[2025-03-03T22:22:30.289Z] [INFO] 🔄 Updated BACKEND_URL in .env file.
+[2025-03-03T22:22:30.294Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:22:30.295Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T22:22:30.297Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T22:22:30.297Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:22:30.298Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T22:22:32.437Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T22:22:32.450Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:22:32.450Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T22:22:32.460Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T22:22:32.460Z] [INFO] ✅ Device registered with backend
+[2025-03-03T22:22:32.511Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Normal.png (Size: 32x32)
+[2025-03-03T22:22:32.515Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Dark_Normal.png (Size: 32x32)
+[2025-03-03T22:22:32.517Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Normal_2x.png (Size: 32x32)
+[2025-03-03T22:22:32.519Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Dark_Normal_2x.png (Size: 32x32)
+[2025-03-03T22:22:32.650Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T22:22:32.651Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:22:32.651Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:22:32.652Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T22:22:33.038Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:22:33.039Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:26:17.499Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T22:26:17.509Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T22:26:17.548Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T22:26:17.549Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T22:26:17.549Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T22:26:17.549Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T22:26:17.550Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T22:26:17.550Z] [INFO] ==============================
+[2025-03-03T22:26:19.006Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T22:26:22.286Z] [WARN] ⚠️ No response from http://localhost:4000/api, trying next...
+[2025-03-03T22:26:25.841Z] [WARN] ⚠️ No response from http://192.168.1.100:4000/api, trying next...
+[2025-03-03T22:26:28.862Z] [WARN] ⚠️ No response from http://192.168.1.101:4000/api, trying next...
+[2025-03-03T22:26:31.872Z] [WARN] ⚠️ No response from http://192.168.1.102:4000/api, trying next...
+[2025-03-03T22:26:31.873Z] [ERROR] ❌ Could not detect backend server. Using fallback (localhost).
+[2025-03-03T22:26:31.874Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T22:26:31.876Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T22:26:31.877Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:26:31.877Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T22:26:34.210Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T22:26:34.653Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:26:34.654Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T22:26:34.656Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T22:26:34.656Z] [INFO] ✅ Device registered with backend
+[2025-03-03T22:26:34.676Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Normal.png (Size: 32x32)
+[2025-03-03T22:26:34.678Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Dark_Normal.png (Size: 32x32)
+[2025-03-03T22:26:34.679Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Normal_2x.png (Size: 32x32)
+[2025-03-03T22:26:34.681Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Dark_Normal_2x.png (Size: 32x32)
+[2025-03-03T22:26:34.797Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T22:26:35.330Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:26:35.333Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:26:35.337Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T22:26:35.875Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:26:36.057Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:28:30.044Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T22:28:30.051Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T22:28:30.268Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T22:28:30.280Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T22:28:30.291Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T22:28:30.298Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T22:28:30.302Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T22:28:30.305Z] [INFO] ==============================
+[2025-03-03T22:28:31.467Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T22:28:33.998Z] [INFO] ✅ Backend detected at http://192.168.64.1:4000/api
+[2025-03-03T22:28:34.702Z] [INFO] 🔄 Updated BACKEND_URL in .env file.
+[2025-03-03T22:28:34.707Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:28:34.708Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T22:28:34.718Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T22:28:34.721Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:28:34.724Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T22:28:37.836Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T22:28:37.841Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:28:37.841Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T22:28:37.848Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T22:28:37.848Z] [INFO] ✅ Device registered with backend
+[2025-03-03T22:28:37.867Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Normal.png
+[2025-03-03T22:28:37.869Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Dark_Normal.png
+[2025-03-03T22:28:37.870Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Normal_2x.png
+[2025-03-03T22:28:37.870Z] [ERROR] ❌ Error: Failed to load icon from ../assets/macOS_icon_styled_Dark_Normal_2x.png
+[2025-03-03T22:28:38.124Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T22:28:38.124Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:28:38.128Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:28:38.133Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T22:28:38.503Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:28:38.503Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:28:59.680Z] [INFO] 🛑 Application is shutting down...
+[2025-03-03T22:28:59.802Z] [INFO] 🔄 Updating status to: offline
+[2025-03-03T22:28:59.802Z] [INFO] 📤 Updating device status to: offline
+[2025-03-03T22:29:14.589Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-03-03T22:29:14.595Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-03-03T22:29:14.628Z] [INFO] ✅ API Key loaded from config file
+[2025-03-03T22:29:14.628Z] [INFO] ======== API KEY CHECK ========
+[2025-03-03T22:29:14.628Z] [INFO] ✅ API Key in agentConfig.json: Not found
+[2025-03-03T22:29:14.628Z] [INFO] ✅ API Key in environment: 0c94cb601d...
+[2025-03-03T22:29:14.628Z] [INFO] ✅ Using API Key: 0c94cb601d...
+[2025-03-03T22:29:14.628Z] [INFO] ==============================
+[2025-03-03T22:29:15.938Z] [INFO] 🔍 Trying to detect backend server...
+[2025-03-03T22:29:17.761Z] [INFO] ✅ Backend detected at http://192.168.64.1:4000/api
+[2025-03-03T22:29:17.761Z] [INFO] 🔄 Updated BACKEND_URL in .env file.
+[2025-03-03T22:29:17.764Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:29:17.765Z] [INFO] 📤 Checking if device is already registered...
+[2025-03-03T22:29:17.766Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-03-03T22:29:17.766Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:29:17.766Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-03-03T22:29:19.913Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-03-03T22:29:19.915Z] [INFO] ✅ .env file successfully updated.
+[2025-03-03T22:29:19.915Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-03-03T22:29:19.917Z] [INFO] ✅ API Key saved to config file
+[2025-03-03T22:29:19.917Z] [INFO] ✅ Device registered with backend
+[2025-03-03T22:29:19.956Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Normal.png (Size: 32x32)
+[2025-03-03T22:29:19.957Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Dark_Normal.png (Size: 32x32)
+[2025-03-03T22:29:19.958Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Normal_2x.png (Size: 32x32)
+[2025-03-03T22:29:19.959Z] [INFO] ✅ Loaded icon: ./assets/macOS_icon_styled_Dark_Normal_2x.png (Size: 32x32)
+[2025-03-03T22:29:20.027Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-03-03T22:29:20.027Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:29:20.027Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:29:20.028Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-03-03T22:29:20.367Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:29:20.368Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:30:47.031Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-03-03T22:32:33.718Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:32:35.611Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:34:20.165Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:34:20.207Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:34:22.260Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:34:22.261Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:39:20.097Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:39:20.187Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:39:22.466Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:39:22.467Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:44:20.091Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:44:20.098Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:44:22.079Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:44:22.079Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:49:20.133Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:49:20.267Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:49:22.402Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:49:22.403Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:54:20.117Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:54:20.134Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:54:22.301Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:54:22.304Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T22:59:20.117Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T22:59:20.135Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T22:59:22.464Z] [INFO] ✅ Status updated successfully
+[2025-03-03T22:59:22.465Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:04:20.119Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:04:20.239Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:04:23.201Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:04:23.202Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:09:20.121Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:09:20.148Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:09:22.393Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:09:22.393Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:14:20.212Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:14:20.428Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:14:22.932Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:14:22.933Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:19:20.192Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:19:20.234Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:19:22.487Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:19:22.488Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:24:20.220Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:24:20.404Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:24:23.048Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:24:23.050Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:29:20.279Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:29:20.485Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:29:23.622Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:29:23.623Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:34:20.256Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:34:20.295Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:34:22.781Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:34:22.782Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:39:20.258Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:39:20.287Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:39:22.281Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:39:22.281Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:44:20.654Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:44:20.678Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:44:23.067Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:44:23.068Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:49:20.662Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:49:20.688Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:49:23.464Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:49:23.465Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-03T23:54:34.102Z] [INFO] 🔄 Updating status to: online
+[2025-03-03T23:54:34.118Z] [INFO] 📤 Updating device status to: online
+[2025-03-03T23:54:36.281Z] [INFO] ✅ Status updated successfully
+[2025-03-03T23:54:36.282Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T00:04:32.683Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T00:04:32.697Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T00:04:34.924Z] [INFO] ✅ Status updated successfully
+[2025-03-04T00:04:34.925Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T00:30:07.905Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T00:30:07.917Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T00:34:46.698Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T00:34:46.739Z] [ERROR] ❌ Failed to update status
+[2025-03-04T00:35:07.948Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T00:35:08.064Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T00:35:12.341Z] [INFO] ✅ Status updated successfully
+[2025-03-04T00:35:12.343Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T00:40:07.958Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T00:40:07.979Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T00:40:12.840Z] [INFO] ✅ Status updated successfully
+[2025-03-04T00:40:12.840Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T00:45:10.221Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T00:45:11.071Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T00:45:18.257Z] [INFO] ✅ Status updated successfully
+[2025-03-04T00:45:18.259Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T00:50:09.983Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T00:50:10.016Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T00:50:12.133Z] [INFO] ✅ Status updated successfully
+[2025-03-04T00:50:12.134Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T00:55:09.993Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T00:55:10.011Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T00:55:23.447Z] [INFO] ✅ Status updated successfully
+[2025-03-04T00:55:23.448Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:00:10.009Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:00:10.050Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:00:21.503Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:00:21.515Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:05:11.297Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:05:12.268Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:05:29.979Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:05:29.994Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:10:11.073Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:10:11.099Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:10:15.408Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:10:15.408Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:15:11.082Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:15:11.099Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:15:26.228Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:15:26.229Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:20:11.088Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:20:11.104Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:20:25.006Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:20:25.006Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:25:11.107Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:25:11.139Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:25:13.954Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:25:13.959Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:42:22.270Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:42:22.460Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:42:24.121Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T01:42:24.129Z] [ERROR] ❌ Failed to update status
+[2025-03-04T01:47:22.206Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:47:22.229Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:47:25.144Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:47:25.145Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:52:22.257Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:52:22.319Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:52:25.626Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:52:25.626Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T01:57:22.324Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T01:57:22.479Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T01:57:25.104Z] [INFO] ✅ Status updated successfully
+[2025-03-04T01:57:25.104Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:02:22.340Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:02:22.396Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:02:24.750Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:02:24.751Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:07:22.352Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:07:22.378Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:07:24.538Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:07:24.539Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:12:22.394Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:12:22.448Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:12:25.560Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:12:25.561Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:17:22.481Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:17:22.563Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:17:35.422Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:17:35.424Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:22:23.769Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:22:24.048Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:22:38.501Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:22:38.517Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:27:23.904Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:27:24.535Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:27:47.881Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:27:47.948Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:32:23.912Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:32:23.979Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:32:26.638Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:32:26.640Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T02:41:33.617Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:41:33.750Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:43:06.355Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T02:43:06.434Z] [ERROR] ❌ Failed to update status
+[2025-03-04T02:46:34.180Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T02:46:34.976Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T02:47:12.210Z] [INFO] ✅ Status updated successfully
+[2025-03-04T02:47:12.423Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T03:02:26.056Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T03:02:26.122Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T03:02:27.095Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T03:02:27.095Z] [ERROR] ❌ Failed to update status
+[2025-03-04T03:07:26.079Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T03:07:26.271Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T03:07:30.432Z] [INFO] ✅ Status updated successfully
+[2025-03-04T03:07:30.435Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T03:12:26.082Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T03:12:26.099Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T03:12:28.153Z] [INFO] ✅ Status updated successfully
+[2025-03-04T03:12:28.153Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T03:17:26.106Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T03:17:26.213Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T03:17:29.023Z] [INFO] ✅ Status updated successfully
+[2025-03-04T03:17:29.025Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T03:22:26.105Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T03:22:26.119Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T03:22:26.230Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T03:22:26.232Z] [ERROR] ❌ Failed to update status
+[2025-03-04T03:36:13.855Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T03:36:13.925Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T03:36:14.322Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T03:36:14.322Z] [ERROR] ❌ Failed to update status
+[2025-03-04T05:02:47.764Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T05:02:47.784Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T05:02:47.911Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T05:02:47.932Z] [ERROR] ❌ Failed to update status
+[2025-03-04T05:24:58.739Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T05:24:58.799Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T05:25:03.422Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T05:25:03.709Z] [ERROR] ❌ Failed to update status
+[2025-03-04T05:43:18.576Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T05:43:18.692Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T05:57:20.423Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T05:57:20.540Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T05:57:20.647Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T05:57:20.648Z] [ERROR] ❌ Failed to update status
+[2025-03-04T05:57:22.581Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T05:57:22.582Z] [ERROR] ❌ Failed to update status
+[2025-03-04T06:16:34.138Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T06:16:34.339Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T06:16:36.593Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T06:16:36.593Z] [ERROR] ❌ Failed to update status
+[2025-03-04T06:32:42.868Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T06:32:43.008Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T06:38:03.198Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T06:38:03.199Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T06:38:03.240Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T06:38:03.240Z] [ERROR] ❌ Failed to update status
+[2025-03-04T06:41:42.184Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T06:41:42.185Z] [ERROR] ❌ Failed to update status
+[2025-03-04T06:56:05.284Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T06:56:05.305Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T06:56:48.955Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T06:56:48.960Z] [ERROR] ❌ Failed to update status
+[2025-03-04T07:31:20.977Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T07:31:20.992Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T07:32:55.367Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T07:32:55.370Z] [ERROR] ❌ Failed to update status
+[2025-03-04T08:04:17.684Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T08:04:17.696Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T08:22:29.871Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T08:22:29.882Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T08:22:29.901Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T08:22:29.902Z] [ERROR] ❌ Failed to update status
+[2025-03-04T08:33:32.046Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T08:33:32.681Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T08:33:32.863Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T08:33:32.866Z] [ERROR] ❌ Failed to update status
+[2025-03-04T08:33:47.576Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T08:33:47.718Z] [ERROR] ❌ Failed to update status
+[2025-03-04T08:50:05.518Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T08:50:05.546Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T08:50:07.939Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T08:50:07.940Z] [ERROR] ❌ Failed to update status
+[2025-03-04T09:05:33.965Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T09:05:33.975Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T09:05:43.892Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T09:05:43.893Z] [ERROR] ❌ Failed to update status
+[2025-03-04T09:11:07.813Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T09:11:07.825Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T09:12:08.945Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T09:12:08.949Z] [ERROR] ❌ Failed to update status
+[2025-03-04T09:21:51.270Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T09:21:51.288Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T09:21:53.193Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T09:21:53.193Z] [ERROR] ❌ Failed to update status
+[2025-03-04T09:36:54.098Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T09:36:54.195Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T09:37:31.148Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T09:37:31.161Z] [ERROR] ❌ Failed to update status
+[2025-03-04T09:52:38.647Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T09:52:38.685Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T09:52:43.766Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T09:52:43.767Z] [ERROR] ❌ Failed to update status
+[2025-03-04T10:08:08.817Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T10:08:08.895Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T10:08:12.129Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T10:08:12.613Z] [ERROR] ❌ Failed to update status
+[2025-03-04T10:24:20.498Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T10:24:20.543Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T10:24:23.285Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T10:24:23.286Z] [ERROR] ❌ Failed to update status
+[2025-03-04T10:30:43.905Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T10:30:43.940Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T10:30:58.711Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T10:30:58.712Z] [ERROR] ❌ Failed to update status
+[2025-03-04T10:38:39.922Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T10:38:39.924Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T10:55:42.821Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T10:55:42.821Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T10:55:42.829Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T10:55:42.829Z] [ERROR] ❌ Failed to update status
+[2025-03-04T10:56:42.851Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T10:56:42.852Z] [ERROR] ❌ Failed to update status
+[2025-03-04T11:06:53.418Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T11:06:53.421Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T11:06:57.793Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T11:06:57.794Z] [ERROR] ❌ Failed to update status
+[2025-03-04T11:25:39.607Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T11:25:39.619Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T11:32:13.076Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T11:32:13.077Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T11:32:13.085Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T11:32:13.085Z] [ERROR] ❌ Failed to update status
+[2025-03-04T11:32:15.019Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T11:32:15.019Z] [ERROR] ❌ Failed to update status
+[2025-03-04T11:45:23.483Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T11:45:23.489Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T12:02:13.900Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T12:02:13.901Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T12:02:13.902Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T12:02:13.902Z] [ERROR] ❌ Failed to update status
+[2025-03-04T12:03:52.356Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T12:03:52.359Z] [ERROR] ❌ Failed to update status
+[2025-03-04T12:11:24.912Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T12:11:24.926Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T12:11:26.703Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T12:11:26.706Z] [ERROR] ❌ Failed to update status
+[2025-03-04T12:25:30.917Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T12:25:30.928Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T12:31:45.144Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T12:31:45.145Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T12:31:45.154Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T12:31:45.154Z] [ERROR] ❌ Failed to update status
+[2025-03-04T12:31:46.221Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T12:31:46.221Z] [ERROR] ❌ Failed to update status
+[2025-03-04T13:40:55.617Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T13:40:55.630Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T13:57:48.837Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T13:57:48.838Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T13:57:48.857Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-03-04T13:57:48.858Z] [ERROR] ❌ Failed to update status
+[2025-03-04T13:58:01.396Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T13:58:01.401Z] [ERROR] ❌ Failed to update status
+[2025-03-04T14:25:19.625Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T14:25:19.636Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T14:26:00.637Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T14:26:00.639Z] [ERROR] ❌ Failed to update status
+[2025-03-04T14:43:07.651Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T14:43:07.654Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T14:59:34.100Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T14:59:34.101Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T14:59:34.104Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T14:59:34.105Z] [ERROR] ❌ Failed to update status
+[2025-03-04T15:10:40.025Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T15:10:40.027Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T15:10:40.029Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T15:10:40.030Z] [ERROR] ❌ Failed to update status
+[2025-03-04T15:26:54.026Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T15:26:54.029Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T15:26:54.031Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T15:26:54.031Z] [ERROR] ❌ Failed to update status
+[2025-03-04T15:45:33.495Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T15:45:33.496Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T15:45:33.497Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T15:45:33.497Z] [ERROR] ❌ Failed to update status
+[2025-03-04T15:46:33.436Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T15:46:33.437Z] [ERROR] ❌ Failed to update status
+[2025-03-04T16:12:04.720Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T16:12:04.722Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T16:12:06.821Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T16:12:06.821Z] [ERROR] ❌ Failed to update status
+[2025-03-04T16:56:46.123Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T16:56:46.152Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T17:04:15.686Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T17:04:15.687Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T17:04:15.698Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T17:04:15.698Z] [ERROR] ❌ Failed to update status
+[2025-03-04T17:04:15.894Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T17:04:15.897Z] [ERROR] ❌ Failed to update status
+[2025-03-04T17:14:28.623Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T17:14:28.634Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T17:14:30.414Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-04T17:14:30.415Z] [ERROR] ❌ Failed to update status
+[2025-03-04T17:30:36.504Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T17:30:36.539Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T17:30:36.649Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T17:30:36.649Z] [ERROR] ❌ Failed to update status
+[2025-03-04T17:48:56.299Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T17:48:56.316Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T17:48:56.596Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T17:48:56.596Z] [ERROR] ❌ Failed to update status
+[2025-03-04T18:02:24.261Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:02:24.392Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:02:24.851Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T18:02:24.899Z] [ERROR] ❌ Failed to update status
+[2025-03-04T18:16:16.467Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:16:16.532Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:17:52.188Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:17:52.194Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:21:16.552Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:21:16.580Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:21:19.113Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:21:19.114Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:26:16.570Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:26:16.592Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:26:18.647Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:26:18.648Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:31:17.815Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:31:20.245Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:31:24.267Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:31:24.269Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:36:17.070Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:36:17.092Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:36:19.210Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:36:19.211Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:41:17.096Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:41:17.122Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:41:19.426Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:41:19.426Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:46:17.415Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:46:17.777Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:46:21.222Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:46:21.223Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:51:17.366Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:51:17.398Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:51:20.447Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:51:20.447Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T18:56:17.434Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T18:56:17.549Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T18:56:23.787Z] [INFO] ✅ Status updated successfully
+[2025-03-04T18:56:23.966Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T19:01:17.551Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T19:01:17.822Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T19:01:21.376Z] [INFO] ✅ Status updated successfully
+[2025-03-04T19:01:21.377Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T19:06:17.574Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T19:06:17.946Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T19:06:26.074Z] [INFO] ✅ Status updated successfully
+[2025-03-04T19:06:26.075Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T19:28:39.384Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T19:28:39.654Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T19:28:41.097Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T19:28:41.098Z] [ERROR] ❌ Failed to update status
+[2025-03-04T20:04:15.429Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T20:04:17.852Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T20:15:07.409Z] [INFO] ✅ Status updated successfully
+[2025-03-04T20:15:07.852Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T20:15:08.208Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T20:15:08.209Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T20:29:47.023Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T20:29:47.370Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T20:29:48.040Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T20:29:48.441Z] [ERROR] ❌ Failed to update status
+[2025-03-04T20:29:52.075Z] [INFO] ✅ Status updated successfully
+[2025-03-04T20:29:52.881Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T20:55:13.171Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T20:55:13.256Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:03:52.401Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:03:52.993Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:03:53.165Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:03:53.165Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:03:56.965Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:03:57.010Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:08:53.237Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:08:54.346Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:09:19.368Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:09:20.304Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:13:53.201Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:13:53.233Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:13:55.612Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:13:55.613Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:18:53.205Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:18:53.218Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:18:55.454Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:18:55.455Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:23:53.212Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:23:53.231Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:23:55.693Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:23:55.693Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:37:48.358Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:37:48.514Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:37:55.448Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:37:55.673Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:51:54.758Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:51:54.798Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:52:42.242Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:52:42.247Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T21:57:41.884Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T21:57:41.894Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T21:57:46.422Z] [INFO] ✅ Status updated successfully
+[2025-03-04T21:57:46.423Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T22:02:41.991Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T22:02:42.273Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T22:02:48.194Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T22:02:48.196Z] [ERROR] ❌ Failed to update status
+[2025-03-04T22:07:41.954Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T22:07:41.974Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T22:08:55.635Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T22:08:55.662Z] [ERROR] ❌ Failed to update status
+[2025-03-04T22:23:21.904Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T22:23:21.909Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T22:23:28.958Z] [INFO] ✅ Status updated successfully
+[2025-03-04T22:23:28.958Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-04T22:51:14.549Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T22:51:14.637Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T22:51:14.835Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-04T22:51:14.835Z] [ERROR] ❌ Failed to update status
+[2025-03-04T23:01:20.601Z] [INFO] 🔄 Updating status to: online
+[2025-03-04T23:01:20.616Z] [INFO] 📤 Updating device status to: online
+[2025-03-04T23:04:56.976Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-04T23:04:56.978Z] [ERROR] ❌ Failed to update status
+[2025-03-05T00:04:15.142Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T00:04:15.166Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T00:04:17.226Z] [INFO] ✅ Status updated successfully
+[2025-03-05T00:04:17.226Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-05T01:02:54.521Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T01:02:54.551Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T01:02:56.844Z] [INFO] ✅ Status updated successfully
+[2025-03-05T01:02:56.845Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-05T01:42:48.993Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T01:42:49.025Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T02:05:00.339Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T02:05:00.387Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T02:05:00.448Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T02:05:00.449Z] [ERROR] ❌ Failed to update status
+[2025-03-05T02:05:00.558Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-03-05T02:05:00.558Z] [ERROR] ❌ Failed to update status
+[2025-03-05T03:01:26.912Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T03:01:26.953Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T03:07:21.078Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T03:07:21.088Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T03:07:21.106Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T03:07:21.106Z] [ERROR] ❌ Failed to update status
+[2025-03-05T03:24:33.427Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T03:24:33.429Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T03:24:33.431Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-03-05T03:24:33.431Z] [ERROR] ❌ Failed to update status
+[2025-03-05T03:24:35.369Z] [INFO] ✅ Status updated successfully
+[2025-03-05T03:24:35.369Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-05T04:11:24.650Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T04:11:24.664Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T04:11:31.470Z] [INFO] ✅ Status updated successfully
+[2025-03-05T04:11:31.471Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-05T04:34:49.465Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T04:34:49.510Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T04:34:52.042Z] [INFO] ✅ Status updated successfully
+[2025-03-05T04:34:52.043Z] [INFO] ✅ Status updated successfully to: online
+[2025-03-05T04:55:29.165Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T04:55:29.174Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T04:55:29.254Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"getaddrinfo ENOTFOUND pc-mac-network-2025.c0lm4fgzdcad.us-east-1.rds.amazonaws.com"}
+[2025-03-05T04:55:29.254Z] [ERROR] ❌ Failed to update status
+[2025-03-05T05:56:57.261Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T05:56:57.273Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T06:04:39.013Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T06:04:39.027Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T06:11:50.481Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T06:11:50.491Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T06:11:50.509Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T06:11:50.509Z] [ERROR] ❌ Failed to update status
+[2025-03-05T06:27:07.949Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T06:27:07.958Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T06:27:07.972Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T06:27:07.973Z] [ERROR] ❌ Failed to update status
+[2025-03-05T06:29:34.686Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T06:29:34.688Z] [ERROR] ❌ Failed to update status
+[2025-03-05T06:46:52.138Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T06:46:52.140Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T06:51:58.466Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T06:51:58.467Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T06:51:58.476Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T06:51:58.476Z] [ERROR] ❌ Failed to update status
+[2025-03-05T07:00:43.772Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T07:00:43.778Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T07:00:43.781Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T07:00:43.782Z] [ERROR] ❌ Failed to update status
+[2025-03-05T07:05:15.966Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T07:05:15.967Z] [ERROR] ❌ Failed to update status
+[2025-03-05T07:21:19.377Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T07:21:19.380Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T07:30:45.853Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T07:30:45.854Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T07:30:45.865Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T07:30:45.865Z] [ERROR] ❌ Failed to update status
+[2025-03-05T07:58:28.769Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T07:58:28.826Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T07:58:28.923Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T07:58:28.923Z] [ERROR] ❌ Failed to update status
+[2025-03-05T08:04:53.674Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T08:04:53.677Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T08:04:53.679Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T08:04:53.679Z] [ERROR] ❌ Failed to update status
+[2025-03-05T08:07:50.629Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T08:07:50.630Z] [ERROR] ❌ Failed to update status
+[2025-03-05T08:10:11.553Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T08:10:11.561Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T08:13:15.983Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T08:13:15.986Z] [ERROR] ❌ Failed to update status
+[2025-03-05T08:37:13.206Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T08:37:13.209Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T08:47:50.168Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T08:47:50.179Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T08:47:50.192Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T08:47:50.193Z] [ERROR] ❌ Failed to update status
+[2025-03-05T08:49:09.988Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T08:49:09.992Z] [ERROR] ❌ Failed to update status
+[2025-03-05T09:00:47.087Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T09:00:47.097Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T09:03:31.032Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T09:03:31.033Z] [ERROR] ❌ Failed to update status
+[2025-03-05T09:22:39.670Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T09:22:39.682Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T09:43:58.559Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T09:43:58.568Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T09:43:58.581Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T09:43:58.581Z] [ERROR] ❌ Failed to update status
+[2025-03-05T09:45:43.240Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T09:45:43.241Z] [ERROR] ❌ Failed to update status
+[2025-03-05T09:56:43.318Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T09:56:43.397Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T10:04:34.381Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T10:04:34.396Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T10:04:34.447Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T10:04:34.447Z] [ERROR] ❌ Failed to update status
+[2025-03-05T10:05:37.665Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T10:05:37.666Z] [ERROR] ❌ Failed to update status
+[2025-03-05T10:22:18.214Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T10:22:18.229Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T10:37:58.890Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T10:37:58.891Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T10:37:58.896Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T10:37:58.896Z] [ERROR] ❌ Failed to update status
+[2025-03-05T10:39:23.765Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T10:39:23.766Z] [ERROR] ❌ Failed to update status
+[2025-03-05T10:53:43.935Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T10:53:43.948Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T10:54:44.008Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T10:54:44.009Z] [ERROR] ❌ Failed to update status
+[2025-03-05T11:00:03.355Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T11:00:03.364Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T11:06:47.305Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T11:06:47.318Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T11:06:47.376Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T11:06:47.376Z] [ERROR] ❌ Failed to update status
+[2025-03-05T11:15:14.320Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T11:15:14.330Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T11:15:14.348Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T11:15:14.348Z] [ERROR] ❌ Failed to update status
+[2025-03-05T11:23:11.186Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T11:23:11.187Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T11:23:11.191Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T11:23:11.192Z] [ERROR] ❌ Failed to update status
+[2025-03-05T11:31:03.559Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T11:31:03.559Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T11:31:03.561Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T11:31:03.561Z] [ERROR] ❌ Failed to update status
+[2025-03-05T11:49:32.981Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T11:49:32.983Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T11:49:32.985Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T11:49:32.985Z] [ERROR] ❌ Failed to update status
+[2025-03-05T11:59:22.902Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T11:59:22.903Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T11:59:22.905Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T11:59:22.905Z] [ERROR] ❌ Failed to update status
+[2025-03-05T12:04:14.221Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T12:04:14.223Z] [ERROR] ❌ Failed to update status
+[2025-03-05T12:04:22.913Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T12:04:22.917Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T12:20:30.819Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T12:20:30.820Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T12:20:30.823Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T12:20:30.824Z] [ERROR] ❌ Failed to update status
+[2025-03-05T12:23:47.603Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T12:23:47.610Z] [ERROR] ❌ Failed to update status
+[2025-03-05T12:41:58.901Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T12:41:58.990Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T12:49:04.888Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T12:49:04.893Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T12:49:04.905Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T12:49:04.905Z] [ERROR] ❌ Failed to update status
+[2025-03-05T13:01:10.480Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T13:01:10.481Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T13:01:10.483Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T13:01:10.483Z] [ERROR] ❌ Failed to update status
+[2025-03-05T13:25:23.520Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T13:25:23.522Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T13:25:23.524Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T13:25:23.524Z] [ERROR] ❌ Failed to update status
+[2025-03-05T13:39:13.284Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T13:39:13.286Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T13:39:13.314Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T13:39:13.315Z] [ERROR] ❌ Failed to update status
+[2025-03-05T13:42:05.905Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T13:42:05.906Z] [ERROR] ❌ Failed to update status
+[2025-03-05T14:14:06.417Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T14:14:06.430Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T14:29:43.467Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T14:29:43.480Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T14:29:43.559Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T14:29:43.560Z] [ERROR] ❌ Failed to update status
+[2025-03-05T14:36:48.699Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T14:36:48.710Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T14:36:48.728Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T14:36:48.728Z] [ERROR] ❌ Failed to update status
+[2025-03-05T14:55:40.210Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T14:55:40.217Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T14:55:40.229Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T14:55:40.229Z] [ERROR] ❌ Failed to update status
+[2025-03-05T14:58:31.985Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T14:58:31.986Z] [ERROR] ❌ Failed to update status
+[2025-03-05T15:42:04.088Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T15:42:04.104Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T15:43:04.214Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T15:43:04.215Z] [ERROR] ❌ Failed to update status
+[2025-03-05T15:47:04.116Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T15:47:04.138Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T15:48:04.277Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T15:48:04.277Z] [ERROR] ❌ Failed to update status
+[2025-03-05T15:52:04.124Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T15:52:04.139Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T15:53:04.266Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T15:53:04.267Z] [ERROR] ❌ Failed to update status
+[2025-03-05T15:57:04.147Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T15:57:04.178Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T15:58:04.806Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T15:58:04.823Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:02:04.168Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:02:04.195Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:03:04.450Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:03:04.453Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:07:04.194Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:07:04.248Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:08:12.216Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:08:16.169Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:12:04.208Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:12:04.238Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:13:04.505Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:13:04.509Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:17:04.274Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:17:04.573Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:18:04.937Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:18:04.940Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:22:04.285Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:22:04.313Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:23:04.516Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:23:04.520Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:27:04.297Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:27:04.316Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:28:04.445Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:28:04.450Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:32:04.319Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:32:04.347Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:33:04.603Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:33:04.608Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:37:04.334Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:37:04.353Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:38:04.527Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:38:04.536Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:42:04.461Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:42:04.651Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:43:05.383Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:43:05.394Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:47:04.481Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:47:04.574Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:48:05.144Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:48:05.150Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:52:04.500Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:52:04.544Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:53:04.910Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:53:04.915Z] [ERROR] ❌ Failed to update status
+[2025-03-05T16:57:04.517Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T16:57:04.545Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T16:58:04.749Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T16:58:04.754Z] [ERROR] ❌ Failed to update status
+[2025-03-05T17:02:04.535Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T17:02:04.563Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T17:03:04.819Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T17:03:04.824Z] [ERROR] ❌ Failed to update status
+[2025-03-05T17:07:04.557Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T17:07:04.585Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T17:08:04.827Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T17:08:04.838Z] [ERROR] ❌ Failed to update status
+[2025-03-05T17:12:04.567Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T17:12:04.589Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T17:13:04.816Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T17:13:04.820Z] [ERROR] ❌ Failed to update status
+[2025-03-05T17:17:04.594Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T17:17:04.625Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T18:08:54.630Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T18:08:54.758Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T18:08:54.978Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T18:08:54.978Z] [ERROR] ❌ Failed to update status
+[2025-03-05T18:57:12.054Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T18:57:12.167Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T18:57:12.316Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T18:57:12.319Z] [ERROR] ❌ Failed to update status
+[2025-03-05T19:14:48.404Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T19:14:48.465Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T19:14:48.564Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T19:14:48.569Z] [ERROR] ❌ Failed to update status
+[2025-03-05T19:17:51.951Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T19:17:52.009Z] [ERROR] ❌ Failed to update status
+[2025-03-05T19:37:42.050Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T19:37:42.109Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T20:44:43.848Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T20:44:44.448Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T20:44:44.564Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T20:44:45.000Z] [ERROR] ❌ Failed to update status
+[2025-03-05T20:45:45.442Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T20:45:45.458Z] [ERROR] ❌ Failed to update status
+[2025-03-05T20:49:43.934Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T20:49:44.004Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T20:50:44.304Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T20:50:44.311Z] [ERROR] ❌ Failed to update status
+[2025-03-05T20:54:43.933Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T20:54:43.948Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T20:55:44.088Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T20:55:44.090Z] [ERROR] ❌ Failed to update status
+[2025-03-05T20:59:44.046Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T20:59:44.108Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T21:00:45.438Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T21:00:45.451Z] [ERROR] ❌ Failed to update status
+[2025-03-05T21:04:44.076Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T21:04:44.112Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T21:05:45.600Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T21:05:45.657Z] [ERROR] ❌ Failed to update status
+[2025-03-05T21:09:44.189Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T21:09:44.381Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T21:10:47.716Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T21:10:47.759Z] [ERROR] ❌ Failed to update status
+[2025-03-05T21:14:44.343Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T21:14:44.696Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T21:15:48.865Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T21:15:49.292Z] [ERROR] ❌ Failed to update status
+[2025-03-05T21:34:49.609Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T21:34:50.047Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T21:35:55.737Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T21:35:55.823Z] [ERROR] ❌ Failed to update status
+[2025-03-05T21:39:49.580Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T21:39:49.619Z] [INFO] 📤 Updating device status to: online
+[2025-03-05T21:40:49.862Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"Operation timeout"}
+[2025-03-05T21:40:49.866Z] [ERROR] ❌ Failed to update status
+[2025-03-05T22:19:24.462Z] [INFO] 🔄 Updating status to: online
+[2025-03-05T22:19:24.670Z] [INFO] 📤 Updating device status to: online

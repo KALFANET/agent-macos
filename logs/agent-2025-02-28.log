@@ -1,0 +1,457 @@
+[2025-02-28T00:28:30.393Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-28T00:28:30.394Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-28T00:28:30.430Z] [INFO] ✅ API Key loaded from config file
+[2025-02-28T00:28:30.431Z] [INFO] ======== API KEY CHECK ========
+[2025-02-28T00:28:30.431Z] [INFO] ✅ API Key in agentConfig.json: 06ad4391d2...
+[2025-02-28T00:28:30.431Z] [INFO] ✅ API Key in environment: 06ad4391d2...
+[2025-02-28T00:28:30.431Z] [INFO] ✅ Using API Key: 06ad4391d2...
+[2025-02-28T00:28:30.431Z] [INFO] ==============================
+[2025-02-28T00:28:30.962Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-28T00:28:30.963Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-28T00:28:30.963Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-28T00:28:30.963Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-28T00:28:33.172Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"null value in column \"id\" of relation \"Devices\" violates not-null constraint"}
+[2025-02-28T00:28:33.174Z] [INFO] ✅ Device registered with backend
+[2025-02-28T00:28:33.291Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-28T00:28:33.291Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:28:33.291Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:28:33.292Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-28T00:28:33.687Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T00:28:33.688Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:33:33.401Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:33:34.052Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:33:37.005Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T00:33:37.009Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:37:48.346Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-28T00:37:48.349Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-28T00:37:48.359Z] [INFO] ✅ API Key loaded from config file
+[2025-02-28T00:37:48.360Z] [INFO] ======== API KEY CHECK ========
+[2025-02-28T00:37:48.360Z] [INFO] ✅ API Key in agentConfig.json: 06ad4391d2...
+[2025-02-28T00:37:48.360Z] [INFO] ✅ API Key in environment: 06ad4391d2...
+[2025-02-28T00:37:48.360Z] [INFO] ✅ Using API Key: 06ad4391d2...
+[2025-02-28T00:37:48.360Z] [INFO] ==============================
+[2025-02-28T00:37:48.543Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-28T00:37:48.544Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-28T00:37:48.545Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-28T00:37:48.545Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-28T00:37:48.578Z] [ERROR] ❌ Error registering device: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-28T00:37:48.579Z] [INFO] ✅ Device registered with backend
+[2025-02-28T00:37:48.710Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-28T00:37:48.710Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:37:48.710Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:37:48.711Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-28T00:37:48.719Z] [ERROR] ❌ Error updating status: connect ECONNREFUSED 127.0.0.1:4000
+[2025-02-28T00:37:48.719Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:38:04.800Z] [INFO] 🛑 Application is shutting down...
+[2025-02-28T00:38:45.057Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-28T00:38:45.059Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-28T00:38:45.063Z] [INFO] ✅ API Key loaded from config file
+[2025-02-28T00:38:45.064Z] [INFO] ======== API KEY CHECK ========
+[2025-02-28T00:38:45.064Z] [INFO] ✅ API Key in agentConfig.json: 06ad4391d2...
+[2025-02-28T00:38:45.064Z] [INFO] ✅ API Key in environment: 06ad4391d2...
+[2025-02-28T00:38:45.064Z] [INFO] ✅ Using API Key: 06ad4391d2...
+[2025-02-28T00:38:45.064Z] [INFO] ==============================
+[2025-02-28T00:38:45.274Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-28T00:38:45.276Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-28T00:38:45.276Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-28T00:38:45.277Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-28T00:38:46.065Z] [INFO] 🔄 Updated AGENT_API_KEY in .env file.
+[2025-02-28T00:38:46.068Z] [INFO] ✅ .env file successfully updated.
+[2025-02-28T00:38:46.068Z] [INFO] ✅ AGENT_API_KEY saved to .env
+[2025-02-28T00:38:46.070Z] [INFO] ✅ API Key saved to config file
+[2025-02-28T00:38:46.070Z] [INFO] ✅ Device registered with backend
+[2025-02-28T00:38:46.126Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-28T00:38:46.126Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:38:46.126Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:38:46.127Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-28T00:38:46.489Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T00:38:46.490Z] [ERROR] ❌ Failed to update status
+[2025-02-28T00:55:13.640Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T00:55:13.793Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T00:55:18.725Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T00:55:18.749Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:00:13.603Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:00:13.673Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:00:17.282Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:00:17.948Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:05:13.738Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:05:14.185Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:05:30.903Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:05:30.984Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:10:13.841Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:10:14.114Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:10:18.094Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:10:18.094Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:15:14.027Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:15:14.596Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:15:32.122Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:15:32.209Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:20:13.965Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:20:13.993Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:20:16.018Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:20:16.020Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:25:14.081Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:25:14.487Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:25:19.734Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:25:19.737Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:30:14.294Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:30:14.620Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:30:16.036Z] [ERROR] ❌ Error updating status: socket hang up
+[2025-02-28T01:30:16.036Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:30:43.969Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-28T01:30:43.971Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-28T01:30:43.984Z] [INFO] ✅ API Key loaded from config file
+[2025-02-28T01:30:43.984Z] [INFO] ======== API KEY CHECK ========
+[2025-02-28T01:30:43.984Z] [INFO] ✅ API Key in agentConfig.json: 9d306c8e36...
+[2025-02-28T01:30:43.984Z] [INFO] ✅ API Key in environment: 9d306c8e36...
+[2025-02-28T01:30:43.984Z] [INFO] ✅ Using API Key: 9d306c8e36...
+[2025-02-28T01:30:43.984Z] [INFO] ==============================
+[2025-02-28T01:30:44.262Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-28T01:30:44.263Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-28T01:30:44.263Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-28T01:30:44.263Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-28T01:30:44.417Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"uuidv4 is not defined"}
+[2025-02-28T01:30:44.417Z] [INFO] ✅ Device registered with backend
+[2025-02-28T01:30:44.576Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-28T01:30:44.577Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:30:44.577Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:30:44.578Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-28T01:30:45.096Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:30:45.096Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:31:41.673Z] [INFO] 🛑 Application is shutting down...
+[2025-02-28T01:31:41.718Z] [INFO] 🔄 Updating status to: offline
+[2025-02-28T01:31:41.719Z] [INFO] 📤 Updating device status to: offline
+[2025-02-28T01:31:46.594Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-28T01:31:46.596Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-28T01:31:46.600Z] [INFO] ✅ API Key loaded from config file
+[2025-02-28T01:31:46.600Z] [INFO] ======== API KEY CHECK ========
+[2025-02-28T01:31:46.600Z] [INFO] ✅ API Key in agentConfig.json: 9d306c8e36...
+[2025-02-28T01:31:46.601Z] [INFO] ✅ API Key in environment: 9d306c8e36...
+[2025-02-28T01:31:46.601Z] [INFO] ✅ Using API Key: 9d306c8e36...
+[2025-02-28T01:31:46.601Z] [INFO] ==============================
+[2025-02-28T01:31:46.790Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-28T01:31:46.791Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-28T01:31:46.792Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-28T01:31:46.792Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-28T01:31:47.224Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"uuidv4 is not defined"}
+[2025-02-28T01:31:47.224Z] [INFO] ✅ Device registered with backend
+[2025-02-28T01:31:47.294Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-28T01:31:47.294Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:31:47.294Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:31:47.297Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-28T01:31:50.549Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:31:50.549Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:46:10.191Z] [INFO] 📂 Checking .env file path: /Users/kalfanetanelmevorach/agent-macos/.env
+[2025-02-28T01:46:10.194Z] [INFO] 🔍 Loaded AGENT_API_KEY: [EXISTS]
+[2025-02-28T01:46:10.207Z] [INFO] ✅ API Key loaded from config file
+[2025-02-28T01:46:10.207Z] [INFO] ======== API KEY CHECK ========
+[2025-02-28T01:46:10.208Z] [INFO] ✅ API Key in agentConfig.json: 9d306c8e36...
+[2025-02-28T01:46:10.209Z] [INFO] ✅ API Key in environment: 9d306c8e36...
+[2025-02-28T01:46:10.210Z] [INFO] ✅ Using API Key: 9d306c8e36...
+[2025-02-28T01:46:10.211Z] [INFO] ==============================
+[2025-02-28T01:46:10.574Z] [INFO] 📤 Checking if device is already registered...
+[2025-02-28T01:46:10.575Z] [INFO] ✅ MAC Address retrieved: 74:a6:cd:a2:f5:87
+[2025-02-28T01:46:10.579Z] [INFO] 📌 Found IP Address on interface en0: 172.20.10.11
+[2025-02-28T01:46:10.583Z] [INFO] 📤 Sending device registration request with data: {"idKey":"h-MacBook-Air-sl-Netanel.local","name":"h-MacBook-Air-sl-Netanel.local","platform":"macos","os":"macos","osVersion":"23.0.0","cpu":"Apple M2","memory":"8GB","macAddress":"74:a6:cd:a2:f5:87","ipAddress":"172.20.10.11"}
+[2025-02-28T01:46:18.324Z] [ERROR] ❌ Error registering device: {"message":"Error registering device","error":"Validation error"}
+[2025-02-28T01:46:18.327Z] [INFO] ✅ Device registered with backend
+[2025-02-28T01:46:18.813Z] [INFO] ⏱️ Starting status update interval (every 5 minutes)
+[2025-02-28T01:46:20.044Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:46:20.140Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:46:20.730Z] [INFO] 🚀 Agent listening on port 3001 for command execution
+[2025-02-28T01:46:22.192Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:46:22.193Z] [ERROR] ❌ Failed to update status
+[2025-02-28T01:53:07.935Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T01:53:08.069Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T01:53:17.927Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T01:53:18.059Z] [ERROR] ❌ Failed to update status
+[2025-02-28T02:00:18.998Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T02:34:57.962Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T02:34:58.185Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T02:34:58.185Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T02:35:01.926Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T02:35:01.949Z] [ERROR] ❌ Failed to update status
+[2025-02-28T02:35:01.953Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T02:35:01.954Z] [ERROR] ❌ Failed to update status
+[2025-02-28T02:48:19.747Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T02:48:20.396Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T02:48:28.493Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T02:48:28.923Z] [ERROR] ❌ Failed to update status
+[2025-02-28T03:03:34.025Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T03:03:34.397Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T03:03:36.411Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T03:03:36.411Z] [ERROR] ❌ Failed to update status
+[2025-02-28T03:17:55.459Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T03:17:55.622Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T03:18:00.280Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T03:18:00.551Z] [ERROR] ❌ Failed to update status
+[2025-02-28T03:55:52.179Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T03:55:52.240Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T03:55:57.108Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T03:55:57.120Z] [ERROR] ❌ Failed to update status
+[2025-02-28T04:27:25.658Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T04:27:25.720Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T04:27:28.804Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T04:27:28.805Z] [ERROR] ❌ Failed to update status
+[2025-02-28T04:56:21.048Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T04:56:21.108Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T04:56:23.751Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T04:56:23.751Z] [ERROR] ❌ Failed to update status
+[2025-02-28T05:49:41.905Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T05:49:41.951Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T05:49:44.054Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T05:49:44.055Z] [ERROR] ❌ Failed to update status
+[2025-02-28T06:34:03.268Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T06:34:03.311Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T06:34:05.450Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T06:34:05.461Z] [ERROR] ❌ Failed to update status
+[2025-02-28T07:18:29.613Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T07:18:29.637Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T07:18:31.581Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T07:18:31.581Z] [ERROR] ❌ Failed to update status
+[2025-02-28T08:12:01.639Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T08:12:01.703Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T08:12:04.287Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T08:12:04.300Z] [ERROR] ❌ Failed to update status
+[2025-02-28T08:38:08.597Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T08:38:08.606Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T08:52:40.384Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T08:52:40.384Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T08:52:40.391Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-28T08:52:40.392Z] [ERROR] ❌ Failed to update status
+[2025-02-28T08:52:42.221Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T08:52:42.241Z] [ERROR] ❌ Failed to update status
+[2025-02-28T10:02:36.084Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T10:02:36.089Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T10:02:38.578Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T10:02:38.578Z] [ERROR] ❌ Failed to update status
+[2025-02-28T10:41:38.081Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T10:41:38.082Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T10:54:46.261Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T10:54:46.262Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T10:54:46.276Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-28T10:54:46.277Z] [ERROR] ❌ Failed to update status
+[2025-02-28T10:54:48.109Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T10:54:48.109Z] [ERROR] ❌ Failed to update status
+[2025-02-28T11:06:55.793Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T11:06:55.808Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T11:06:57.698Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T11:06:57.698Z] [ERROR] ❌ Failed to update status
+[2025-02-28T11:29:46.636Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T11:29:46.652Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T11:29:48.783Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T11:29:48.784Z] [ERROR] ❌ Failed to update status
+[2025-02-28T12:18:45.482Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T12:18:45.484Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T12:18:47.478Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T12:18:47.479Z] [ERROR] ❌ Failed to update status
+[2025-02-28T13:22:42.226Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T13:22:42.237Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T13:22:44.195Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T13:22:44.196Z] [ERROR] ❌ Failed to update status
+[2025-02-28T14:13:27.861Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T14:13:27.930Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T14:47:36.728Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T14:47:36.738Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T14:47:36.761Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-02-28T14:47:36.762Z] [ERROR] ❌ Failed to update status
+[2025-02-28T14:47:38.559Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T14:47:38.559Z] [ERROR] ❌ Failed to update status
+[2025-02-28T15:18:19.587Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T15:18:19.603Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T15:29:53.812Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T15:29:53.812Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T15:29:53.829Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-28T15:29:53.829Z] [ERROR] ❌ Failed to update status
+[2025-02-28T15:29:55.837Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T15:29:55.838Z] [ERROR] ❌ Failed to update status
+[2025-02-28T16:20:20.235Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T16:20:20.238Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T16:20:47.652Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T16:20:47.652Z] [ERROR] ❌ Failed to update status
+[2025-02-28T16:34:15.478Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T16:34:15.479Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T16:34:17.191Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T16:34:17.191Z] [ERROR] ❌ Failed to update status
+[2025-02-28T17:21:47.852Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T17:21:47.865Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T17:21:49.769Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T17:21:49.769Z] [ERROR] ❌ Failed to update status
+[2025-02-28T17:45:32.698Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T17:45:32.730Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T17:45:34.659Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T17:45:34.660Z] [ERROR] ❌ Failed to update status
+[2025-02-28T18:24:28.041Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T18:24:28.045Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T18:24:29.881Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T18:24:29.881Z] [ERROR] ❌ Failed to update status
+[2025-02-28T19:16:58.296Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T19:16:58.303Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T19:29:06.938Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T19:29:06.940Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T19:29:06.960Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-28T19:29:06.961Z] [ERROR] ❌ Failed to update status
+[2025-02-28T19:29:08.839Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T19:29:08.839Z] [ERROR] ❌ Failed to update status
+[2025-02-28T20:00:56.565Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T20:00:56.616Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T20:00:59.223Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T20:00:59.224Z] [ERROR] ❌ Failed to update status
+[2025-02-28T20:35:56.835Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T20:35:56.867Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T20:36:55.249Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T20:36:55.250Z] [ERROR] ❌ Failed to update status
+[2025-02-28T21:24:17.038Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T21:24:17.066Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T21:24:19.130Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T21:24:19.130Z] [ERROR] ❌ Failed to update status
+[2025-02-28T22:06:52.234Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T22:06:52.288Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T22:08:43.911Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T22:08:43.912Z] [ERROR] ❌ Failed to update status
+[2025-02-28T22:29:57.575Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T22:29:57.592Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T22:30:00.003Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T22:30:00.003Z] [ERROR] ❌ Failed to update status
+[2025-02-28T22:40:07.505Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T22:40:07.515Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T22:41:37.782Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-02-28T22:41:37.783Z] [ERROR] ❌ Failed to update status
+[2025-02-28T23:47:13.901Z] [INFO] 🔄 Updating status to: online
+[2025-02-28T23:47:14.487Z] [INFO] 📤 Updating device status to: online
+[2025-02-28T23:47:16.971Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-02-28T23:47:16.973Z] [ERROR] ❌ Failed to update status
+[2025-03-01T00:04:43.329Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T00:04:43.350Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T00:16:23.175Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T00:16:23.208Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T00:16:23.334Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-03-01T00:16:23.335Z] [ERROR] ❌ Failed to update status
+[2025-03-01T00:16:25.343Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T00:16:25.344Z] [ERROR] ❌ Failed to update status
+[2025-03-01T00:48:52.453Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T00:48:52.455Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T00:48:54.167Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T00:48:54.167Z] [ERROR] ❌ Failed to update status
+[2025-03-01T01:28:58.425Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T01:28:58.439Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T01:29:00.305Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T01:29:00.306Z] [ERROR] ❌ Failed to update status
+[2025-03-01T02:04:22.913Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T02:04:22.917Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T02:18:04.752Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T02:18:04.753Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T02:18:04.757Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-03-01T02:18:04.757Z] [ERROR] ❌ Failed to update status
+[2025-03-01T02:18:19.143Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T02:18:19.148Z] [ERROR] ❌ Failed to update status
+[2025-03-01T02:28:02.439Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T02:28:02.467Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T02:28:04.435Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T02:28:04.436Z] [ERROR] ❌ Failed to update status
+[2025-03-01T02:48:53.254Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T02:48:53.750Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T02:48:57.011Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T02:48:57.021Z] [ERROR] ❌ Failed to update status
+[2025-03-01T03:19:10.082Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T03:19:10.157Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T03:19:13.447Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T03:19:13.462Z] [ERROR] ❌ Failed to update status
+[2025-03-01T03:58:57.368Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T03:58:57.404Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T03:59:02.628Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T03:59:02.647Z] [ERROR] ❌ Failed to update status
+[2025-03-01T04:25:57.674Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T04:25:57.749Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T04:26:00.616Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T04:26:00.617Z] [ERROR] ❌ Failed to update status
+[2025-03-01T05:03:00.789Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T05:03:00.793Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T05:03:03.605Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T05:03:03.957Z] [ERROR] ❌ Failed to update status
+[2025-03-01T05:19:09.807Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T05:19:09.827Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T05:19:15.797Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T05:19:15.798Z] [ERROR] ❌ Failed to update status
+[2025-03-01T05:45:32.242Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T05:45:32.289Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T05:45:34.229Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T05:45:34.230Z] [ERROR] ❌ Failed to update status
+[2025-03-01T06:24:26.003Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T06:24:26.032Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T06:24:29.769Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T06:24:29.771Z] [ERROR] ❌ Failed to update status
+[2025-03-01T06:45:22.408Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T06:45:22.423Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T06:45:24.293Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T06:45:24.293Z] [ERROR] ❌ Failed to update status
+[2025-03-01T07:22:50.176Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T07:22:50.183Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T07:22:52.364Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T07:22:52.364Z] [ERROR] ❌ Failed to update status
+[2025-03-01T08:04:30.205Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T08:04:30.208Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T08:04:32.100Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T08:04:32.101Z] [ERROR] ❌ Failed to update status
+[2025-03-01T08:28:52.198Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T08:28:52.292Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T08:31:22.879Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-03-01T08:31:22.882Z] [ERROR] ❌ Failed to update status
+[2025-03-01T08:43:58.158Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T08:43:58.196Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T08:44:00.284Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T08:44:00.296Z] [ERROR] ❌ Failed to update status
+[2025-03-01T09:21:27.740Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T09:21:27.949Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T09:21:32.014Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T09:21:32.022Z] [ERROR] ❌ Failed to update status
+[2025-03-01T10:05:16.868Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T10:05:16.879Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T10:05:19.252Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T10:05:19.253Z] [ERROR] ❌ Failed to update status
+[2025-03-01T11:04:54.565Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T11:04:54.570Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T11:31:54.876Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T11:31:54.883Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T11:31:54.894Z] [ERROR] ❌ Error updating status: {"message":"Error updating device status","error":"read ETIMEDOUT"}
+[2025-03-01T11:31:54.894Z] [ERROR] ❌ Failed to update status
+[2025-03-01T11:31:56.915Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T11:31:56.916Z] [ERROR] ❌ Failed to update status
+[2025-03-01T12:05:37.612Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T12:05:37.618Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T12:05:40.570Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T12:05:40.571Z] [ERROR] ❌ Failed to update status
+[2025-03-01T12:49:57.389Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T12:49:57.396Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T12:49:59.497Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T12:49:59.497Z] [ERROR] ❌ Failed to update status
+[2025-03-01T13:34:02.037Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T13:34:02.119Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T13:34:04.598Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T13:34:04.599Z] [ERROR] ❌ Failed to update status
+[2025-03-01T14:26:06.256Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T14:26:06.274Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T14:26:10.734Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T14:26:11.656Z] [ERROR] ❌ Failed to update status
+[2025-03-01T14:40:48.245Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T14:40:48.325Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T14:40:51.377Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T14:40:51.379Z] [ERROR] ❌ Failed to update status
+[2025-03-01T15:10:45.879Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T15:10:45.897Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T15:10:48.034Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T15:10:48.034Z] [ERROR] ❌ Failed to update status
+[2025-03-01T15:58:50.168Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T15:58:50.197Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T15:58:52.563Z] [ERROR] ❌ Error updating status: {"message":"Device not found"}
+[2025-03-01T15:58:52.565Z] [ERROR] ❌ Failed to update status
+[2025-03-01T16:58:31.551Z] [INFO] 🔄 Updating status to: online
+[2025-03-01T16:58:31.690Z] [INFO] 📤 Updating device status to: online
+[2025-03-01T16:58:43.430Z] [ERROR] ❌ Error updating status: {"message":"שגיאה באימות המכשיר"}
+[2025-03-01T16:58:43.698Z] [ERROR] ❌ Failed to update status
+[2025-03-01T17:00:32.743Z] [INFO] 🛑 Application is shutting down...
+[2025-03-01T17:00:33.229Z] [INFO] 🔄 Updating status to: offline
+[2025-03-01T17:00:33.233Z] [INFO] 📤 Updating device status to: offline
+[2025-03-01T17:00:33.581Z] [INFO] ⏱️ Stopped status update interval
+[2025-03-01T17:00:33.594Z] [INFO] 🔄 Updating status to: offline
+[2025-03-01T17:00:33.601Z] [INFO] 📤 Updating device status to: offline
